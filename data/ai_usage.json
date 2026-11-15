@@ -1,0 +1,43 @@
+{
+  "updated_at": "2026-11-15T14:44:44+08:00",
+  "source": "subscription-status (Muse only)",
+  "services": [
+    {
+      "id": "muse",
+      "name": "Muse",
+      "status": "ok",
+      "plan": "Free",
+      "percent_used": 67,
+      "percent_remaining": 33,
+      "resets_at": "2026-11-20T17:04:00+08:00",
+      "resets_at_text": "11-20 17:04",
+      "days_left": 5,
+      "window_5h": null,
+      "extra": {
+        "percent_used": 1,
+        "left_label": "30B tokens left"
+      }
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "unavailable",
+      "reason": "本机无用量接口，需在 ChatGPT App/网页查",
+      "short": "ChatGPT App 查"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "status": "unavailable",
+      "reason": "本机未安装 CLI、未登录",
+      "short": "未安装/未登录"
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "status": "unavailable",
+      "reason": "未配 API Key，App 用量本机取不到",
+      "short": "未配 Key"
+    }
+  ]
+}
