@@ -1,13 +1,22 @@
-# Muse 用量数据管线 · 一段话搞定
+# Muse 用量小组件 · 安装 + 数据搭建
 
-本教程只负责**数据**这一半：让你的 Muse 在 GitHub 上建一个仓库，每 30 分钟把你的 Muse 用量写进去，最后给你一个**专属数据链接**。桌面组件由作者另行发放，你拿到组件后把这个链接填进去，显示的就是你自己的用量了。
+利用你自己的 Muse 一段话在 GitHub 搭好数据连接的用量小组件，桌面上一眼看清本周额度、永久额度和重置时间。整个过程分两半：**组件**点下面的链接一键安装；**数据**让你的 Muse 在 GitHub 上建一个仓库，每 30 分钟把你的 Muse 用量写进去，给你一个**专属数据链接**，填进组件就是你自己的用量了。
 
 ## 准备
 
 - 一个已登录的 **Muse**
+- iPhone 上装 **Scripting** App（App Store 免费）
 - 一个 GitHub 账号（没有的话，让 Muse 指导你注册并连接）
 
-## 把这段话发给你的 Muse
+## 第一步：安装组件
+
+点这个链接，在 Scripting 里确认导入即可：
+
+[一键安装「Muse 用量」组件](https://scripting.fun/import_scripts?urls=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2FLu6618%2Fmuse-usage-widget%2Fmain%2Fmuse-2.scripting%22%5D)
+
+装好先不用管，组件里没有任何人的数据，等第二步拿到你自己的数据链接再填。
+
+## 第二步：把这段话发给你的 Muse
 
 整段复制发送：
 
@@ -31,13 +40,12 @@
 >
 > 3. 做完后，把数据直链发给我，格式是 `https://raw.githubusercontent.com/<我的GitHub用户名>/muse-usage-widget/main/data/muse_usage.json`，并带我验收一遍。
 
-## 验收（两分钟）
+## 第三步：验收并填入组件
 
 1. 打开 Muse 给你的数据直链，能看到一段 JSON。
 2. 看 `updated_at`：应该是最近 30 分钟内的时间。
 3. 看 `percent_used`：应该是你真实的用量百分比（不是占位的 0 了）。
-
-三项都对，这条管线就通了。把这个链接保存好，组件到手后填它就行。
+4. 三项都对，在 Scripting 里运行「muse 用量」，在打开的设置页里粘贴你的数据链接保存；再把组件加到桌面（长按桌面 →「+」→ Scripting → 选「muse 用量」）。
 
 ## 出问题时
 
