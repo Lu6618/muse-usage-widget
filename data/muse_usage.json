@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T10:29:49+08:00",
+  "updated_at": "2026-11-21T10:59:52+08:00",
   "source": "subscription-status",
   "plan": "Free",
   "percent_used": 83,
@@ -7,6 +7,6 @@
   "resets_at_text": "11-23 14:12",
   "additional_tokens": {
     "percent_used": 0,
-    "left_label": "3B tokens left"
+    "left_label": "6B tokens left"
   }
 }
